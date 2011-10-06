@@ -14,7 +14,7 @@
 <div id="container">
 
 <div id="liquid-round">
-    <div class="top"><span>NEW HOME PAGE</span></div>
+    <div class="top"><span></span></div>
 		<div class="center-content">
 		
 	<div id="header">
