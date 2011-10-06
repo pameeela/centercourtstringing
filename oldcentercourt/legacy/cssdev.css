@@ -1,0 +1,181 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+background: #23456f;
+font-family: Tahoma, Arial, sans-serif;
+margin: auto;
+}
+img{
+display: block;
+margin: .35em auto;
+border-style: none;
+text-decoration: none; 
+}
+img.logo{
+margin: .35em 0 0 2em;
+z-index: 100;
+float: left;
+position: absolute;
+}
+img.letters{
+margin: 1.8em 0 0 16em;
+}
+img.button{
+margin: auto;
+}
+p.center{
+text-align: center;
+font-size: 84%;
+line-height: 1.6em;
+padding: .35em;
+color: #000;
+}
+p.formtop{
+text-align: center;
+font-size: 84%;
+line-height: 1.6em;
+padding: .35em;
+color: #000;
+margin-left: 15em;
+}
+div#container{
+border: 2px solid #679902;
+width: 48em;
+margin: 1em auto;
+background: #fff;
+z-index: -20;
+}
+div#header{
+margin: auto;
+width: 48em;
+}
+div#nav{
+margin: .5em auto 1.25em;
+width: 48em;
+z-index: -15;
+width:100%;
+background: #7caf0a url('images/navnormal.jpg') repeat-x;
+line-height:1.6em;
+height: 32px;
+border-bottom: 2px solid #679902;
+border-top: 2px solid #679902;
+}
+div#nav ul
+{
+list-style-type: none;
+margin-left: 0em;
+} 
+div#nav li {
+float: left;
+}
+#nav ul li a
+{
+font-family:Verdana,Arial,sans-serif;
+font-size: 13px;
+font-weight: bold;
+display: block;
+text-decoration: none;
+text-align: center;
+color: #fff;
+background: #679902 url('images/navnormal.jpg') repeat-x;
+border-right: 1px solid #679902;
+line-height:2.4em;
+height: 32px;
+padding: 0 1em 0;
+} 
+#nav ul li a.selected{
+background: #679902;
+}
+#nav ul li a:hover
+{
+background: #679902 repeat-x;
+} 
+div#main{
+margin: 0 auto 0;
+background-color: #fff;
+color: #000;
+width: 47em;
+border: 2px solid #;
+padding: .5em;
+clear: both;
+}
+div#hours{
+float: right;
+width: 10em;
+display: block;
+background: #3366a4;
+padding: .8em;
+margin-left: .5em;
+color: #fff;
+border: 2px solid #679902;
+}
+div#hours td{
+font-weight: bold;
+font-size: 70%;
+}
+div#pickup p{
+font-size: 84%;
+line-height: 1.6em;
+padding: .35em;
+}
+div#pickup ul{
+font-size: 84%;
+line-height: 1.4em;
+padding: .35em;
+margin: 0 4em;
+}
+div#phpscreen{
+height: 15em;
+clear: both;
+margin-top: 3em;
+}
+div#footer{
+clear: both;
+color: #fff;
+font-size: 80%;
+text-align: center;
+margin: 0 auto 2em;
+}
+p{
+padding: .5em;
+font-size: 15px;
+}
+a{
+color: #23456f;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover{
+color: #23456f;
+text-decoration: underline;
+font-weight: bold;
+}
+div#main ul li{
+margin-left: 1em;
+}
+h1{
+text-align: center;
+margin-top: .5em;
+font-size: 250%;
+}
+h2{
+padding: .5em;
+color: #23456f;
+}
+h3{
+color: #23456f;
+padding: .5em;
+}
+div#hours h3{
+color: #fff;
+padding: 0em;
+}
+h4{
+padding: .5em;
+color: #23456f;
+}
+
+label span {float: left;}
